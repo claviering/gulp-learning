@@ -11,18 +11,31 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.24.7",
+    "child-process": "^1.0.2",
+    "cssnano": "^4.1.0",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-less": "^4.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
     "gulp-rev": "^8.1.1",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
-    "pump": "^3.0.0"
+    "pump": "^3.0.0",
+    "serve-static": "^1.13.2",
+    "webpack": "^4.19.1",
+    "webpack-stream": "^5.1.1"
   },
   "dependencies": {
+    "eslint": "^5.6.0",
     "gulp-htmlmin": "^5.0.1"
   }
 }
